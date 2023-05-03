@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import { ModeToggle } from "@/components/mode-toggle";
 
 // eslint-disable-next-line
 const inter = Inter({ subsets: ["latin"] });
