@@ -2,13 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, get the environment variables by running:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+vercel env pull .env.development.local
+```
+
+Then run the development server:
+
+```bash
 pnpm dev
 ```
 
