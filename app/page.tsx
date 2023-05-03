@@ -9,6 +9,7 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 const ratelimit = new Ratelimit({
+  // eslint-disable-next-line
   // @ts-ignore - This is only a type error, the value is correct, we'll fix it asap
   redis: kv,
   limiter: Ratelimit.fixedWindow(10, "60s"),
