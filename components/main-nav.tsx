@@ -37,7 +37,7 @@ export function AppNavigation() {
           href="/how-it-works"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname === "how-it-works"
+            pathname === "/how-it-works"
               ? "text-foreground"
               : "text-foreground/60"
           )}
