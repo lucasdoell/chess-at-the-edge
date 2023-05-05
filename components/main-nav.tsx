@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import knight from "../public/knight.svg";
 
 export function AppNavigation() {
   const pathname = usePathname();
@@ -13,7 +14,7 @@ export function AppNavigation() {
     <div className="mr-4 hidden md:flex">
       <Link href="/" className="mr-6 flex items-center space-x-2">
         <Image
-          src="./knight.svg"
+          src={knight}
           alt=""
           className="h-6 w-6 dark:invert"
           width={24}
